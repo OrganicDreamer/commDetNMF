@@ -13,7 +13,7 @@ start_cl_bench_net=2;
 end_cl_bench_net=100;
 
 for i=muwLow:0.1:muwHigh
-    
+
     muw=i;
     
     for j=mutLow:0.1:mutHigh
