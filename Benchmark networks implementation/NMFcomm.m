@@ -1,5 +1,5 @@
 num_nodes=1650;  
-exp_num_comm=160;
+exp_num_comm=170;
 
 %range of mu values of the LFRs to loop over
 muwLow=0.1;
