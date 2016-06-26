@@ -1,4 +1,5 @@
 num_nodes=1650;  
+exp_num_comm=160;
 
 %range of mu values of the LFRs to loop over
 muwLow=0.1;
@@ -49,7 +50,7 @@ for i=muwLow:0.1:muwHigh
                 %apply method which returns community membership list g 
                 clear P g commList;
                 
-                [P,g] = commDetNMF(adj,160);  
+                [P,g] = commDetNMF(adj,exp_num_com);  
                 
                 %reformat to two-column community membership list
                 commList=MembList(g);
