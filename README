@@ -3,3 +3,5 @@ type:
 help commDetNMF.m 
 
 on the MATLAB command line!
+
+Functions and script to apply algorithm to series of closed benchmarks created and included as well. 
