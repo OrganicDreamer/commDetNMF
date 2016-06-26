@@ -2,6 +2,7 @@ function [commMemb] = MembList(g)
 %vectors to store the nodes and the community they are a member of
 node=[];
 memb=[];
+
     
 %loop through all cells in list g
     for i=1:length(g)
